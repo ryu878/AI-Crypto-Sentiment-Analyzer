@@ -1,4 +1,4 @@
-# Crypto Sentiment Analyzer
+# AI Crypto Sentiment Analyzer
 Scrapes recent crypto headlines or tweets and uses AI to classify sentiment: bullish, bearish, or neutral.
 It pulls recent news or tweets and uses a Transformer-based model (like FinBERT) to classify the sentiment as 🟢 bullish, 🔴 bearish, or ⚪ neutral.
 

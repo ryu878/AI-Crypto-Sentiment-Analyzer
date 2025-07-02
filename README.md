@@ -18,7 +18,7 @@ It pulls recent news or tweets and uses a Transformer-based model (like FinBERT)
 ### 📦 Installation
 
 ```
-git clone https://github.com/yourusername/crypto-sentiment-analyzer.git
+git clone https://github.com/ryu878/AI-Crypto-Sentiment-Analyzer.git
 cd crypto-sentiment-analyzer
 python3 -m venv venv
 source venv/bin/activate

@@ -1,0 +1,7 @@
+gradio
+requests
+beautifulsoup4
+transformers
+torch
+pandas
+matplotlib

@@ -19,7 +19,7 @@ It pulls recent news or tweets and uses a Transformer-based model (like FinBERT)
 
 ```
 git clone https://github.com/ryu878/AI-Crypto-Sentiment-Analyzer.git
-cd crypto-sentiment-analyzer
+cd AI-Crypto-Sentiment-Analyzer
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
@@ -34,7 +34,7 @@ Then go to http://localhost:7860 in your browser.
 ### 📁 Project Structure
 
 ```
-📦 crypto-sentiment-analyzer/
+📦 AI-Crypto-Sentiment-Analyzer/
 ├── app.py               # Gradio interface
 ├── sentiment.py         # Sentiment classification logic
 ├── scraper.py           # News scraping functions

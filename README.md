@@ -104,5 +104,6 @@ Core focus areas:
 
 ## Contact
 
-**Email:** ryu8777@gmail.com
+- **Email:** ryu8777@gmail.com
+- **Telegram:** @ryu8777
 ***

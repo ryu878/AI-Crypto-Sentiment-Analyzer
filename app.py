@@ -14,9 +14,14 @@ def analyze():
 
     df = pd.DataFrame(results)
     fig = plt.figure()
-    df["Sentiment"].value_counts().plot(kind="bar", color=["red", "gray", "green"])
-    plt.title("Sentiment Distribution")
-    plt.xticks(rotation=0)
+    if df.empty:
+        df = pd.DataFrame(columns=["Headline", "Sentiment", "Confidence"])
+        plt.title("No headlines found")
+        plt.axis("off")
+    else:
+        df["Sentiment"].value_counts().plot(kind="bar", color=["red", "gray", "green"])
+        plt.title("Sentiment Distribution")
+        plt.xticks(rotation=0)
     plt.tight_layout()
 
     return df, fig

@@ -3,7 +3,8 @@ from bs4 import BeautifulSoup
 
 def fetch_coindesk_headlines():
     url = "https://www.coindesk.com/"
-    resp = requests.get(url)
+    resp = requests.get(url, timeout=10)
+    resp.raise_for_status()
     soup = BeautifulSoup(resp.text, "html.parser")
 
     headlines = []
